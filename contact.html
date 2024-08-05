@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="icon" href="images/favicon.png" />
+    <title>Welcome to Tutor</title>
+  </head>
+  <body>
+    <nav class="navbar" role="navigation" aria-label="Main Navigation">
+        <div class="navbar-flex container">
+          <a href="/" aria-label="Logo Home Link">
+            <img src="./images/logo.svg" alt="Logo tutor" />
+          </a>
+          <div class="main-menu-items">
+            <ul class="main-menu-list">
+              <li><a href="/">Home</a></li>
+              <li><a href="#chapters">Chapters</a></li>
+              <li><a href="#summary">Summary</a></li>
+              <li><a href="#takeaways">Takeaways</a></li>
+              <li><a href="#author">Author</a></li>
+              <li><a href="contact.html">Contact</a></li>
+              <li>
+                <a
+                  href="https://www.facebook.com/pangsui.linge"
+                  target="_blank"
+                  aria-label="Follow us on Facebook"
+                  ><i class="fa-brands fa-facebook"></i
+                ></a>
+              </li>
+              <li>
+                <a
+                  href="https://www.twitter.com"
+                  aria-label="Follow Us on Twitter"
+                  target="_blank"
+                  ><i class="fa-brands fa-twitter"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+  
+          <!-- Mobile menu -->
+          <div class="mobile-menu">
+            <!-- Hamburger button -->
+            <div
+              class="mobile-menu-toggle"
+              role="button"
+              aria-expanded="false"
+              aria-controls="mobile-menu-items"
+              aria-label="Open Mobile Menu"
+              tabindex="0"
+            >
+              <i class="fas fa-bars fa-2x"></i>
+            </div>
+  
+            <!-- Mobile menu items -->
+            <div class="mobile-menu-items" id="mobile-menu-items">
+              <ul class="mobile-menu-list">
+                <li><a href="/">Home</a></li>
+                <li><a href="#chapters">Chapters</a></li>
+                <li><a href="#summary">Summary</a></li>
+                <li><a href="#takeaways">Takeaways</a></li>
+                <li><a href="#author">Author</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li>
+                    <a
+                      href="https://www.facebook.com/pangsui.linge"
+                      target="_blank"
+                      aria-label="Follow us on Facebook"
+                      ><i class="fa-brands fa-facebook"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a
+                      href="https://www.twitter.com"
+                      aria-label="Follow Us on Twitter"
+                      target="_blank"
+                      ><i class="fa-brands fa-twitter"></i
+                    ></a>
+                  </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+    <!-- Inner header -->
+     <header class="inner-header">
+        <div class="container-sm">
+            <h1>Contact Us</h1>
+        </div>
+     </header>
+
+     <!-- Contact form -->
+      <section class="contact-form section">
+        <div class="container-sm">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus provident ea, temporibus voluptates nesciunt excepturi amet adipisci unde. Veritatis, obcaecati!</p>
+            <form action="https://formspree.io/f/xyzgwvoe" method="POST">
+
+               <input type="text" name="name" id="name" placeholder="name">
+               <input type="email" name="email" id="email" placeholder="email">
+               <textarea name="message" id="message" placeholder="Message"></textarea>
+               <button type="submit" class="btn">Send Message</button>
+            </form>
+        </div>
+      </section>
+
+      <!-- Location -->
+       <section class="location section">
+        <div class="container-sm">
+            <h2>Office Location</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam sint aliquam cumque cum similique reprehenderit necessitatibus quam, debitis nesciunt minima!</p>
+            <div class="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3311.4384740719615!2d4.920257666348084!3d45.739582446700155!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47f4c17294a5b871%3A0xb0be18e83c9bc386!2s108%20Av.%20Pierre%20Brossolette%2C%2069500%20Bron!5e0!3m2!1sfr!2sfr!4v1722845510862!5m2!1sfr!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+       </section>
+
+
+     <!-- Socials section -->
+     <section class="socials section" id="socials">
+        <div class="container">
+          <p>Follow us on social media for updates and news about our courses</p>
+          <div class="social-icons">
+            <a
+              href="https://www.facebook.com/pangsui.linge"
+              aria-label="Follow Us on Facebook"
+              target="_blank"
+            >
+              <i class="fa-brands fa-facebook fa-2x"></i>
+            </a>
+            <a
+              href="https://www.twitter.com"
+              aria-label="Follow Us on Twitter"
+              target="_blank"
+            >
+              <i class="fa-brands fa-twitter fa-2x"></i>
+            </a>
+            <a
+              href="https://www.instagram.com"
+              aria-label="Follow Us on Instagram"
+              target="_blank"
+            >
+              <i class="fa-brands fa-instagram fa-2x"></i>
+            </a>
+            <a
+              href="https://www.linkedin.com/in/linge-pangsui-usifu-858242135"
+              target="_blank"
+              aria-label="Follow Us on Linkedin"
+            >
+              <i class="fa-brands fa-linkedin fa-2x"></i>
+            </a>
+            <a
+              href="https://www.youtube.com"
+              aria-label="Follow Us on Youtube"
+              target="_blank"
+            >
+              <i class="fa-brands fa-youtube fa-2x"></i>
+            </a>
+            <a
+              href="https://www.pinterest.com"
+              aria-label="Follow Us on Pinterest"
+              target="_blank"
+            >
+              <i class="fa-brands fa-pinterest fa-2x"></i>
+            </a>
+          </div>
+        </div>
+      </section>
+      <!-- Footer section -->
+      <footer class="footer">
+        <div class="container footer-flex">
+          <ul class="footer-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Terms</a></li>
+            <li><a href="#">Privacy</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+          <p>&copy; Tutor 2024. All rights reserved</p>
+        </div>
+      </footer>
+      <script src="./js/script.js"></script>
+    </body>
+  </html>
+  
+  </body>
+</html>

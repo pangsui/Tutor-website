@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="icon" href="images/favicon.png" />
+    <title>Welcome to Tutor</title>
+  </head>
+  <body>
+    <nav class="navbar" role="navigation" aria-label="Main Navigation">
+      <div class="navbar-flex container">
+        <a href="/" aria-label="Logo Home Link">
+          <img src="./images/logo.svg" alt="Logo tutor" />
+        </a>
+        <div class="main-menu-items">
+          <ul class="main-menu-list">
+            <li><a href="/">Home</a></li>
+            <li><a href="#chapters">Chapters</a></li>
+            <li><a href="#summary">Summary</a></li>
+            <li><a href="#takeaways">Takeaways</a></li>
+            <li><a href="#author">Author</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li>
+              <a
+                href="https://www.facebook.com/pangsui.linge"
+                target="_blank"
+                aria-label="Follow us on Facebook"
+                ><i class="fa-brands fa-facebook"></i
+              ></a>
+            </li>
+            <li>
+              <a
+                href="https://www.twitter.com"
+                aria-label="Follow Us on Twitter"
+                target="_blank"
+                ><i class="fa-brands fa-twitter"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Mobile menu -->
+        <div class="mobile-menu">
+          <!-- Hamburger button -->
+          <div
+            class="mobile-menu-toggle"
+            role="button"
+            aria-expanded="false"
+            aria-controls="mobile-menu-items"
+            aria-label="Open Mobile Menu"
+            tabindex="0"
+          >
+            <i class="fas fa-bars fa-2x"></i>
+          </div>
+
+          <!-- Mobile menu items -->
+          <div class="mobile-menu-items" id="mobile-menu-items">
+            <ul class="mobile-menu-list">
+              <li><a href="/">Home</a></li>
+              <li><a href="#chapters">Chapters</a></li>
+              <li><a href="#summary">Summary</a></li>
+              <li><a href="#takeaways">Takeaways</a></li>
+              <li><a href="#author">Author</a></li>
+              <li><a href="contact.html">Contact</a></li>
+              <li>
+                <a
+                  href="https://www.facebook.com/pangsui.linge"
+                  target="_blank"
+                  aria-label="Follow us on Facebook"
+                  ><i class="fa-brands fa-facebook"></i
+                ></a>
+              </li>
+              <li>
+                <a
+                  href="https://www.twitter.com"
+                  aria-label="Follow Us on Twitter"
+                  target="_blank"
+                  ><i class="fa-brands fa-twitter"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero -->
+    <header class="hero">
+      <div class="container hero-flex">
+        <div class="hero-content">
+          <h1>Create Your Own Video Courses</h1>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere
+            laboriosam optio consectetur.
+          </p>
+          <a href="#" class="btn">$29 Get Course</a>
+        </div>
+        <img src="./images/header-course.png" alt="hero" />
+      </div>
+
+      <svg
+        class="frame-decoration"
+        data-name="Layer 2"
+        xmlns="http://www.w3.org/2000/svg"
+        preserveAspectRatio="none"
+        viewBox="0 0 1920 192.275"
+      >
+        <defs>
+          <style>
+            .cls-1 {
+              fill: #ffffff;
+            }
+          </style>
+        </defs>
+        <title>frame-decoration</title>
+        <path
+          class="cls-1"
+          d="M0,158.755s63.9,52.163,179.472,50.736c121.494-1.5,185.839-49.738,305.984-49.733,109.21,0,181.491,51.733,300.537,50.233,123.941-1.562,225.214-50.126,390.43-50.374,123.821-.185,353.982,58.374,458.976,56.373,217.907-4.153,284.6-57.236,284.6-57.236V351.03H0V158.755Z"
+          transform="translate(0 -158.755)"
+        />
+      </svg>
+    </header>
+
+    <!-- Learned section -->
+    <section class="learn">
+      <div class="container">
+        <div class="section-header">
+          <h2>What Will You Learn?</h2>
+          <div class="heading-border"></div>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque
+            dolore necessitatibus reiciendis doloribus.
+          </p>
+        </div>
+        <!-- Topics -->
+        <div class="topics">
+          <div class="topic">
+            <div class="topic-image">
+              <img src="./images/description-1.jpg" alt="description one" />
+            </div>
+            <div class="topic-text">
+              <h3>Set Clear Objectives and Goals</h3>
+            </div>
+          </div>
+
+          <div class="topic">
+            <div class="topic-image">
+              <img src="images/description-2.jpg" alt="alternative" />
+            </div>
+            <div class="topic-text">
+              <h3>Plan Layout And Design Elements</h3>
+            </div>
+          </div>
+
+          <div class="topic">
+            <div class="topic-image">
+              <img src="images/description-3.jpg" alt="alternative" />
+            </div>
+            <div class="topic-text">
+              <h3>Sketch Creative Concepts</h3>
+            </div>
+          </div>
+
+          <div class="topic">
+            <div class="topic-image">
+              <img src="images/description-4.jpg" alt="alternative" />
+            </div>
+            <div class="topic-text">
+              <h3>Establish Strong Call-to-Actions</h3>
+            </div>
+          </div>
+
+          <div class="topic">
+            <div class="topic-image">
+              <img src="images/description-5.jpg" alt="alternative" />
+            </div>
+            <div class="topic-text">
+              <h3>Choose High-Quality HTML Templates</h3>
+            </div>
+          </div>
+
+          <div class="topic">
+            <div class="topic-image">
+              <img src="images/description-6.jpg" alt="alternative" />
+            </div>
+            <div class="topic-text">
+              <h3>Create Impressive Layout Previews</h3>
+            </div>
+          </div>
+
+          <div class="topic">
+            <div class="topic-image">
+              <img src="images/description-7.jpg" alt="alternative" />
+            </div>
+            <div class="topic-text">
+              <h3>Master Landing Page Coding Techniques</h3>
+            </div>
+          </div>
+
+          <div class="topic">
+            <div class="topic-image">
+              <img src="images/description-8.jpg" alt="alternative" />
+            </div>
+            <div class="topic-text">
+              <h3>Launch Your Project Successfully Online</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Course chapters  section-->
+    <section class="chapters section" id="chapters">
+      <div class="container">
+        <div class="section-header">
+          <h2>Main Course Chapter</h2>
+          <div class="heading-border"></div>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto
+            facere minus vel alias nostrum ipsum eos explicabo quaerat labore
+            quia mollitia enim, quidem tempore reprehenderit.
+          </p>
+        </div>
+
+        <div class="chapters-cards">
+          <div class="card">
+            <img src="./images/chapters-icon-1.svg" alt="chapter one icon" />
+            <h3>Setting Clear Objectives</h3>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae,
+              fugit voluptas nulla doloribus velit dicta. Repellendus adipisci
+              fugiat tempora impedit.
+            </p>
+          </div>
+          <div class="card">
+            <img src="./images/chapters-icon-2.svg" alt="chapter two icon" />
+            <h3>Content Crearion Strategies</h3>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae,
+              fugit voluptas nulla doloribus velit dicta. Repellendus adipisci
+              fugiat tempora impedit.
+            </p>
+          </div>
+          <div class="card">
+            <img src="./images/chapters-icon-3.svg" alt="chapter three icon" />
+            <h3>Coding Essentials</h3>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae,
+              fugit voluptas nulla doloribus velit dicta. Repellendus adipisci
+              fugiat tempora impedit.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Summary Section-->
+    <section class="summary" id="summary">
+      <div class="container">
+        <div class="section-header">
+          <h2>Course Summary</h2>
+          <div class="heading-border"></div>
+        </div>
+        <div class="section-lists">
+          <div class="list">
+            <div class="list-header">Setting Clear Objectives</div>
+            <div class="list-item">
+              1.1 Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Reprehenderit tenetur ipsam laboriosam obcaecati odio officiis?
+            </div>
+            <div class="list-item">
+              1.2 Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Reprehenderit tenetur ipsam laboriosam obcaecati odio officiis?
+            </div>
+            <div class="list-item">
+              1.3 Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Reprehenderit tenetur ipsam laboriosam obcaecati odio officiis?
+            </div>
+          </div>
+          <div class="list">
+            <div class="list-header">Setting Clear Objectives</div>
+            <div class="list-item">
+              1.1 Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Reprehenderit tenetur ipsam laboriosam obcaecati odio officiis?
+            </div>
+            <div class="list-item">
+              1.2 Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Reprehenderit tenetur ipsam laboriosam obcaecati odio officiis?
+            </div>
+            <div class="list-item">
+              1.3 Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Reprehenderit tenetur ipsam laboriosam obcaecati odio officiis?
+            </div>
+          </div>
+          <div class="list">
+            <div class="list-header">Setting Clear Objectives</div>
+            <div class="list-item">
+              1.1 Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Reprehenderit tenetur ipsam laboriosam obcaecati odio officiis?
+            </div>
+            <div class="list-item">
+              1.2 Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Reprehenderit tenetur ipsam laboriosam obcaecati odio officiis?
+            </div>
+            <div class="list-item">
+              1.3 Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Reprehenderit tenetur ipsam laboriosam obcaecati odio officiis?
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Info -->
+    <section class="info" id="info">
+      <div class="info-container">
+        <div class="info-left"></div>
+        <div class="info-content">
+          <h2>Who is This Course For</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi
+            cumque quaerat doloremque fugiat rerum magnam nulla enim dolorem
+            fugit, laboriosam ad natus? Dolorem, quidem vitae!
+          </p>
+          <ul>
+            <li><i class="fas fa-check"></i>Web Designers</li>
+            <li><i class="fas fa-check"></i>Web Developpers</li>
+            <li><i class="fas fa-check"></i>Entrepreneurs</li>
+            <li><i class="fas fa-check"></i>Business Owners</li>
+            <li><i class="fas fa-check"></i>Marketing Professionals</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <!-- Takeaways -->
+    <section class="takeways section" id="takeaways">
+      <div class="container">
+        <div class="section-header">
+          <h2>Key Takeways</h2>
+          <div class="heading-border"></div>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam
+            rem voluptatem consequuntur corporis id! Perspiciatis illum
+            asperiores fugiat earum neque?
+          </p>
+        </div>
+        <div class="takeaways-cards">
+          <div class="card">
+            <i class="fas fa-rocket fa-3x text-primary"></i>
+            <p>
+              <strong>Enhanced Skills</strong>-Develop Advanced Skills in Web
+              design and Development
+            </p>
+          </div>
+          <div class="card">
+            <i class="fas fa-globe fa-3x text-primary"></i>
+            <p>
+              <strong>Global Perspective</strong> - Gain insights into industry
+              trends and best practices
+            </p>
+          </div>
+          <div class="card">
+            <i class="fas fa-cloud fa-3x text-primary"></i>
+            <p>
+              <strong>Cloud Technology</strong> - Explore the latest cloud
+              technologies and tools
+            </p>
+          </div>
+          <div class="card">
+            <i class="fas fa-user fa-3x text-primary"></i>
+            <p>
+              <strong>Networking </strong> - Connect with fellow professionals
+              and expand your network
+            </p>
+          </div>
+          <div class="card">
+            <i class="fas fa-cog fa-3x text-primary"></i>
+            <p>
+              <strong>Problem-Solving</strong> - Enhance your problem-solving
+              abilities and critical thinking skills
+            </p>
+          </div>
+          <div class="card">
+            <i class="fas fa-server fa-3x text-primary"></i>
+            <p>
+              <strong>Technical Proficiency</strong> - Improve your technical
+              proficiency and stay ahead in the digital landscape.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Course Details -->
+    <section class="details section" id="details">
+      <div class="container details-flex">
+        <img src="images/details.png" alt="details " />
+        <div class="details-content section-header">
+          <h2>Course Details</h2>
+          <div class="heading-border"></div>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore
+            enim dolorum laboriosam a, quam dolore!
+          </p>
+          <a href="#" class="btn">See Details</a>
+        </div>
+      </div>
+    </section>
+    <!-- Author Details -->
+    <section class="details section" id="author">
+      <div class="container details-flex">
+        <img src="images/author.png" alt="author" />
+        <div class="details-content section-header">
+          <h2>Author Details</h2>
+          <div class="heading-border"></div>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore
+            enim dolorum laboriosam a, quam dolore!
+          </p>
+          <ul>
+            <li>
+              <i class="fas fa-chevron-circle-right text-primary"></i
+              ><strong>Expertise</strong>:Lorem ipsum dolor sit, amet
+              consectetur adipisicing.
+            </li>
+            <li>
+              <i class="fas fa-chevron-circle-right text-primary"></i
+              ><strong>Experience</strong>:Lorem ipsum dolor sit, amet
+              consectetur adipisicing.
+            </li>
+            <li>
+              <i class="fas fa-chevron-circle-right text-primary"></i
+              ><strong>Skills</strong>:Lorem ipsum dolor sit, amet consectetur
+              adipisicing.
+            </li>
+          </ul>
+          <a href="#" class="btn">See Details</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats section" id="stats">
+      <div class="container stats-flex">
+        <img src="images/stats.png" alt="stats" />
+        <div class="stats-content">
+          <div class="stats-numbers">
+            <div class="stats-number">
+              <h3 aria-labelledby="stats-happy-users">3000+</h3>
+              <p id="stats-happy-users">Happy Users</p>
+            </div>
+            <div class="stats-number">
+              <h3 aria-labelledby="stats-issues-solved">3040</h3>
+              <p id="stats-issues-solved">Issues Solved</p>
+            </div>
+            <div class="stats-number">
+              <h3 aria-labelledby="stats-good-reviews">290</h3>
+              <p id="stats-good-reviews">Good Reviews</p>
+            </div>
+            <div class="stats-number">
+              <h3 aria-labelledby="stats-case-study">900</h3>
+              <p id="stats-case-study">Case Study</p>
+            </div>
+          </div>
+          <p class="stats-text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, quod.
+          </p>
+          <a href="#" class="btn">Get the Course</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Newsletter section -->
+    <section class="newsletter section" id="newsletter">
+      <div class="container newsletter-flex">
+        <h2>Subscribe to Our Newsletter</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, quasi
+          iusto esse impedit eligendi consectetur numquam libero voluptates modi
+          hic.
+        </p>
+        <form>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Enter Your Email"
+          />
+          <button type="submit" class="btn">Subscribe</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- Socials section -->
+    <section class="socials section" id="socials">
+      <div class="container">
+        <p>Follow us on social media for updates and news about our courses</p>
+        <div class="social-icons">
+          <a
+            href="https://www.facebook.com/pangsui.linge"
+            aria-label="Follow Us on Facebook"
+            target="_blank"
+          >
+            <i class="fa-brands fa-facebook fa-2x"></i>
+          </a>
+          <a
+            href="https://www.twitter.com"
+            aria-label="Follow Us on Twitter"
+            target="_blank"
+          >
+            <i class="fa-brands fa-twitter fa-2x"></i>
+          </a>
+          <a
+            href="https://www.instagram.com"
+            aria-label="Follow Us on Instagram"
+            target="_blank"
+          >
+            <i class="fa-brands fa-instagram fa-2x"></i>
+          </a>
+          <a
+            href="https://www.linkedin.com/in/linge-pangsui-usifu-858242135"
+            target="_blank"
+            aria-label="Follow Us on Linkedin"
+          >
+            <i class="fa-brands fa-linkedin fa-2x"></i>
+          </a>
+          <a
+            href="https://www.youtube.com"
+            aria-label="Follow Us on Youtube"
+            target="_blank"
+          >
+            <i class="fa-brands fa-youtube fa-2x"></i>
+          </a>
+          <a
+            href="https://www.pinterest.com"
+            aria-label="Follow Us on Pinterest"
+            target="_blank"
+          >
+            <i class="fa-brands fa-pinterest fa-2x"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="container footer-flex">
+        <ul class="footer-links">
+          <li><a href="/">Home</a></li>
+          <li><a href="#">Terms</a></li>
+          <li><a href="#">Privacy</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <p>&copy; Tutor 2024. All rights reserved</p>
+      </div>
+    </footer>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
